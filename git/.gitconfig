@@ -1,3 +1,6 @@
 [user]
 	email = hub.lucasoliveira@gmail.com
 	name = Lucas Oliveira
+[alias]
+	s = status
+	l = log --oneline
