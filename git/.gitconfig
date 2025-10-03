@@ -4,3 +4,5 @@
 [alias]
 	s = status
 	l = log --oneline
+[core]
+	editor = vim
