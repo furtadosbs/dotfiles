@@ -1,4 +1,4 @@
-# 🛠️ Dotfiles Managed with GNU Stow
+# Dotfiles Managed with GNU Stow
 
 Welcome to my personal dotfiles repository! This setup helps me keep my development environment consistent across machines using [GNU Stow](https://www.gnu.org/software/stow/), a symlink farm manager that makes managing dotfiles elegant and modular.
 
