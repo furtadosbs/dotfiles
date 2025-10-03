@@ -103,3 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(~/.local/bin/mise activate)"
+
+# Default FZF ipts
+# export FZF_DEFAULT_OPTS="--preview 'cat {}'"
