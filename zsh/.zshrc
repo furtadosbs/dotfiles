@@ -105,4 +105,4 @@ source $ZSH/oh-my-zsh.sh
 eval "$(~/.local/bin/mise activate)"
 
 # Default FZF ipts
-# export FZF_DEFAULT_OPTS="--preview 'cat {}'"
+export FZF_DEFAULT_OPTS="--preview 'cat {}'"
