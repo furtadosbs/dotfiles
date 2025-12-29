@@ -4,5 +4,12 @@
 [alias]
 	s = status
 	l = log --oneline
+	a = add
+	aa = add --all
+	ps = push
+	pl = pull
+	co = checkout
+	c = commit -m
+
 [core]
 	editor = vim
