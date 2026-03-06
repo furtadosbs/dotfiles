@@ -122,3 +122,6 @@ fi
 
 eval "$(starship init bash)"
 eval "$(~/.local/bin/mise activate)"
+
+# opencode
+export PATH=/home/lucas/.opencode/bin:$PATH
