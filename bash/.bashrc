@@ -102,6 +102,18 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+# Git aliasn
+alias g='git'
+alias gs='git status'
+alias gc='git commit'
+alias ga='git add'
+alias gaa='git add .'
+
+# Ruby on Rails alias
+alias r='bin/rails'
+alias rt='bin/rails test'
+alias rs='bin/rails server'
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -116,4 +128,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+eval "$(starship init bash)"
 eval "$(~/.local/bin/mise activate)"
+
+# opencode
+export PATH=/home/lucas/.opencode/bin:$PATH
