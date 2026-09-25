@@ -3,6 +3,7 @@
 alias g='git'
 alias gs='git status'
 alias gc='git commit'
+alias gcm='git commit -m'
 alias ga='git add'
 alias gaa='git add .'
 alias gp='git push'
